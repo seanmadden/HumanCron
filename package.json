@@ -1,0 +1,9 @@
+{
+  "name": "human-cron",
+  "version": "0.0.1",
+  "dependencies": {
+    "cron": ">=1.0.0",
+    "vows": ">=0.8.1",
+    "cron-parser": ">=1.0.1"
+  }
+}

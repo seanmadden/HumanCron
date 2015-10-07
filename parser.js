@@ -36,8 +36,6 @@ var parser = function (english) {
         throw Error("Only statements beginning with 'every' can be parsed at this time");
     }
 
-
-    //TODO: create a new object from the base_expression
     let expression = Object.create(Base_expression);
 
     let pattern = "((mon|tues|wednes|thurs|fri|satur|sun)day)";
